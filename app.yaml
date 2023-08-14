@@ -40,7 +40,8 @@ spec:
     protocol: TCP
     targetPort: 8080
 
----apiVersion: ui.cattle.io/v1
+---
+apiVersion: ui.cattle.io/v1
 kind: NavLink
 metadata:
   name: rodeo
