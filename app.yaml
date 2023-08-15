@@ -19,7 +19,7 @@ spec:
       containers:
       - env:
         - name: COW_COLOR
-          value: blue
+          value: pink
         name: demo
         image: bgulla/rancher-demo
         ports:
@@ -36,7 +36,7 @@ spec:
     app: demo
   ports:
   - name: http
-    port: 80
+    port: 8080
     protocol: TCP
     targetPort: 8080
 
@@ -51,5 +51,5 @@ spec:
     name: cowsay
     namespace: default
     path: /
-    port: '80'
+    port: '8080'
     scheme: http
