@@ -20,6 +20,8 @@ spec:
       - env:
         - name: COW_COLOR
           value: pink
+        - name: SKIP_ERRORS
+          value: "true"
         name: demo
         image: bgulla/rancher-demo
         ports:
