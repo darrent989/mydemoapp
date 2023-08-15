@@ -21,7 +21,7 @@ spec:
         - name: COW_COLOR
           value: pink
         name: demo
-        image: harbor.atoy.dev/public/rancher-demo:1
+        image: brooksphilip/rancher-demo-navlink
         ports:
         - containerPort: 8080
 
