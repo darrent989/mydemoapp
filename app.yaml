@@ -21,7 +21,7 @@ spec:
         - name: COW_COLOR
           value: pink
         name: demo
-        image: rancher/cowsay
+        image: bgulla/rancher-demo
         ports:
         - containerPort: 8080
 
