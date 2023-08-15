@@ -1,2 +1,2 @@
 # hobbyfarm_demoapp
-![architecture1](https://raw.githubusercontent.com/brooksphilip/hobbyfarm_demoapp/main/img/arch.svg)
+![architecture](https://raw.githubusercontent.com/brooksphilip/hobbyfarm_demoapp/main/img/arch1.svg)
