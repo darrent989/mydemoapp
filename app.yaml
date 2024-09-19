@@ -7,7 +7,7 @@ metadata:
   labels:
     app: demo
 spec:
-  replicas: 10
+  replicas: 20
   selector:
     matchLabels:
       app: demo
@@ -19,7 +19,7 @@ spec:
       containers:
       - env:
         - name: COW_COLOR
-          value: red
+          value: pink
         name: demo
         image: brooksphilip/rancher-demo-navlink
         ports:
